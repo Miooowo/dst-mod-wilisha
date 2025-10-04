@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+	<folder id="0" name="float_top">
+		<file id="0" name="float_top/float_top-0.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="1" name="float_top/float_top-1.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="2" name="float_top/float_top-2.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="3" name="float_top/float_top-3.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="4" name="float_top/float_top-4.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="5" name="float_top/float_top-5.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="6" name="float_top/float_top-6.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="7" name="float_top/float_top-7.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="8" name="float_top/float_top-8.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="9" name="float_top/float_top-9.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="10" name="float_top/float_top-10.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="11" name="float_top/float_top-11.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="12" name="float_top/float_top-12.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="13" name="float_top/float_top-13.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="14" name="float_top/float_top-14.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="15" name="float_top/float_top-15.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="16" name="float_top/float_top-16.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="17" name="float_top/float_top-17.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="18" name="float_top/float_top-18.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="19" name="float_top/float_top-19.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="20" name="float_top/float_top-20.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="21" name="float_top/float_top-21.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="22" name="float_top/float_top-22.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="23" name="float_top/float_top-23.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="24" name="float_top/float_top-24.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="25" name="float_top/float_top-25.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="26" name="float_top/float_top-26.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="27" name="float_top/float_top-27.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="28" name="float_top/float_top-28.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="29" name="float_top/float_top-29.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="30" name="float_top/float_top-30.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="31" name="float_top/float_top-31.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="32" name="float_top/float_top-32.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="33" name="float_top/float_top-33.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="34" name="float_top/float_top-34.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="35" name="float_top/float_top-35.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="36" name="float_top/float_top-36.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="37" name="float_top/float_top-37.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="38" name="float_top/float_top-38.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="39" name="float_top/float_top-39.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="40" name="float_top/float_top-40.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="41" name="float_top/float_top-41.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="42" name="float_top/float_top-42.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="43" name="float_top/float_top-43.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="44" name="float_top/float_top-44.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="45" name="float_top/float_top-45.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="46" name="float_top/float_top-46.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="47" name="float_top/float_top-47.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="48" name="float_top/float_top-48.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="49" name="float_top/float_top-49.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+		<file id="50" name="float_top/float_top-50.png" width="143" height="200" pivot_x="0.5" pivot_y="0.5" />
+	</folder>
+	<entity id="0" name="float_top">
+		<animation id="0" name="float_top" length="1100" interval="22">
+			<mainline>
+				<key id="0" time="0">
+					<object_ref id="0" timeline="0" key="0" z_index="0" name="float_top" />
+				</key>
+				<key id="1" time="22">
+					<object_ref id="0" timeline="0" key="1" z_index="0" name="float_top" />
+				</key>
+				<key id="2" time="44">
+					<object_ref id="0" timeline="0" key="2" z_index="0" name="float_top" />
+				</key>
+				<key id="3" time="66">
+					<object_ref id="0" timeline="0" key="3" z_index="0" name="float_top" />
+				</key>
+				<key id="4" time="88">
+					<object_ref id="0" timeline="0" key="4" z_index="0" name="float_top" />
+				</key>
+				<key id="5" time="110">
+					<object_ref id="0" timeline="0" key="5" z_index="0" name="float_top" />
+				</key>
+				<key id="6" time="132">
+					<object_ref id="0" timeline="0" key="6" z_index="0" name="float_top" />
+				</key>
+				<key id="7" time="154">
+					<object_ref id="0" timeline="0" key="7" z_index="0" name="float_top" />
+				</key>
+				<key id="8" time="176">
+					<object_ref id="0" timeline="0" key="8" z_index="0" name="float_top" />
+				</key>
+				<key id="9" time="198">
+					<object_ref id="0" timeline="0" key="9" z_index="0" name="float_top" />
+				</key>
+				<key id="10" time="220">
+					<object_ref id="0" timeline="0" key="10" z_index="0" name="float_top" />
+				</key>
+				<key id="11" time="242">
+					<object_ref id="0" timeline="0" key="11" z_index="0" name="float_top" />
+				</key>
+				<key id="12" time="264">
+					<object_ref id="0" timeline="0" key="12" z_index="0" name="float_top" />
+				</key>
+				<key id="13" time="286">
+					<object_ref id="0" timeline="0" key="13" z_index="0" name="float_top" />
+				</key>
+				<key id="14" time="308">
+					<object_ref id="0" timeline="0" key="14" z_index="0" name="float_top" />
+				</key>
+				<key id="15" time="330">
+					<object_ref id="0" timeline="0" key="15" z_index="0" name="float_top" />
+				</key>
+				<key id="16" time="352">
+					<object_ref id="0" timeline="0" key="16" z_index="0" name="float_top" />
+				</key>
+				<key id="17" time="374">
+					<object_ref id="0" timeline="0" key="17" z_index="0" name="float_top" />
+				</key>
+				<key id="18" time="396">
+					<object_ref id="0" timeline="0" key="18" z_index="0" name="float_top" />
+				</key>
+				<key id="19" time="418">
+					<object_ref id="0" timeline="0" key="19" z_index="0" name="float_top" />
+				</key>
+				<key id="20" time="440">
+					<object_ref id="0" timeline="0" key="20" z_index="0" name="float_top" />
+				</key>
+				<key id="21" time="462">
+					<object_ref id="0" timeline="0" key="21" z_index="0" name="float_top" />
+				</key>
+				<key id="22" time="484">
+					<object_ref id="0" timeline="0" key="22" z_index="0" name="float_top" />
+				</key>
+				<key id="23" time="506">
+					<object_ref id="0" timeline="0" key="23" z_index="0" name="float_top" />
+				</key>
+				<key id="24" time="528">
+					<object_ref id="0" timeline="0" key="24" z_index="0" name="float_top" />
+				</key>
+				<key id="25" time="550">
+					<object_ref id="0" timeline="0" key="25" z_index="0" name="float_top" />
+				</key>
+				<key id="26" time="572">
+					<object_ref id="0" timeline="0" key="26" z_index="0" name="float_top" />
+				</key>
+				<key id="27" time="594">
+					<object_ref id="0" timeline="0" key="27" z_index="0" name="float_top" />
+				</key>
+				<key id="28" time="616">
+					<object_ref id="0" timeline="0" key="28" z_index="0" name="float_top" />
+				</key>
+				<key id="29" time="638">
+					<object_ref id="0" timeline="0" key="29" z_index="0" name="float_top" />
+				</key>
+				<key id="30" time="660">
+					<object_ref id="0" timeline="0" key="30" z_index="0" name="float_top" />
+				</key>
+				<key id="31" time="682">
+					<object_ref id="0" timeline="0" key="31" z_index="0" name="float_top" />
+				</key>
+				<key id="32" time="704">
+					<object_ref id="0" timeline="0" key="32" z_index="0" name="float_top" />
+				</key>
+				<key id="33" time="726">
+					<object_ref id="0" timeline="0" key="33" z_index="0" name="float_top" />
+				</key>
+				<key id="34" time="748">
+					<object_ref id="0" timeline="0" key="34" z_index="0" name="float_top" />
+				</key>
+				<key id="35" time="770">
+					<object_ref id="0" timeline="0" key="35" z_index="0" name="float_top" />
+				</key>
+				<key id="36" time="792">
+					<object_ref id="0" timeline="0" key="36" z_index="0" name="float_top" />
+				</key>
+				<key id="37" time="814">
+					<object_ref id="0" timeline="0" key="37" z_index="0" name="float_top" />
+				</key>
+				<key id="38" time="836">
+					<object_ref id="0" timeline="0" key="38" z_index="0" name="float_top" />
+				</key>
+				<key id="39" time="858">
+					<object_ref id="0" timeline="0" key="39" z_index="0" name="float_top" />
+				</key>
+				<key id="40" time="880">
+					<object_ref id="0" timeline="0" key="40" z_index="0" name="float_top" />
+				</key>
+				<key id="41" time="902">
+					<object_ref id="0" timeline="0" key="41" z_index="0" name="float_top" />
+				</key>
+				<key id="42" time="924">
+					<object_ref id="0" timeline="0" key="42" z_index="0" name="float_top" />
+				</key>
+				<key id="43" time="946">
+					<object_ref id="0" timeline="0" key="43" z_index="0" name="float_top" />
+				</key>
+				<key id="44" time="968">
+					<object_ref id="0" timeline="0" key="44" z_index="0" name="float_top" />
+				</key>
+				<key id="45" time="990">
+					<object_ref id="0" timeline="0" key="45" z_index="0" name="float_top" />
+				</key>
+				<key id="46" time="1012">
+					<object_ref id="0" timeline="0" key="46" z_index="0" name="float_top" />
+				</key>
+				<key id="47" time="1034">
+					<object_ref id="0" timeline="0" key="47" z_index="0" name="float_top" />
+				</key>
+				<key id="48" time="1056">
+					<object_ref id="0" timeline="0" key="48" z_index="0" name="float_top" />
+				</key>
+				<key id="49" time="1078">
+					<object_ref id="0" timeline="0" key="49" z_index="0" name="float_top" />
+				</key>
+				<key id="50" time="1100">
+					<object_ref id="0" timeline="0" key="50" z_index="0" name="float_top" />
+				</key>
+			</mainline>
+			<timeline id="0" name="float_top">
+				<key id="0" time="0" spin="0" curve_type="instant">
+					<object folder="0" file="0" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="1" time="22" spin="0" curve_type="instant">
+					<object folder="0" file="1" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="2" time="44" spin="0" curve_type="instant">
+					<object folder="0" file="2" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="3" time="66" spin="0" curve_type="instant">
+					<object folder="0" file="3" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="4" time="88" spin="0" curve_type="instant">
+					<object folder="0" file="4" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="5" time="110" spin="0" curve_type="instant">
+					<object folder="0" file="5" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="6" time="132" spin="0" curve_type="instant">
+					<object folder="0" file="6" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="7" time="154" spin="0" curve_type="instant">
+					<object folder="0" file="7" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="8" time="176" spin="0" curve_type="instant">
+					<object folder="0" file="8" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="9" time="198" spin="0" curve_type="instant">
+					<object folder="0" file="9" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="10" time="220" spin="0" curve_type="instant">
+					<object folder="0" file="10" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="11" time="242" spin="0" curve_type="instant">
+					<object folder="0" file="11" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="12" time="264" spin="0" curve_type="instant">
+					<object folder="0" file="12" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="13" time="286" spin="0" curve_type="instant">
+					<object folder="0" file="13" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="14" time="308" spin="0" curve_type="instant">
+					<object folder="0" file="14" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="15" time="330" spin="0" curve_type="instant">
+					<object folder="0" file="15" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="16" time="352" spin="0" curve_type="instant">
+					<object folder="0" file="16" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="17" time="374" spin="0" curve_type="instant">
+					<object folder="0" file="17" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="18" time="396" spin="0" curve_type="instant">
+					<object folder="0" file="18" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="19" time="418" spin="0" curve_type="instant">
+					<object folder="0" file="19" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="20" time="440" spin="0" curve_type="instant">
+					<object folder="0" file="20" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="21" time="462" spin="0" curve_type="instant">
+					<object folder="0" file="21" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="22" time="484" spin="0" curve_type="instant">
+					<object folder="0" file="22" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="23" time="506" spin="0" curve_type="instant">
+					<object folder="0" file="23" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="24" time="528" spin="0" curve_type="instant">
+					<object folder="0" file="24" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="25" time="550" spin="0" curve_type="instant">
+					<object folder="0" file="25" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="26" time="572" spin="0" curve_type="instant">
+					<object folder="0" file="26" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="27" time="594" spin="0" curve_type="instant">
+					<object folder="0" file="27" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="28" time="616" spin="0" curve_type="instant">
+					<object folder="0" file="28" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="29" time="638" spin="0" curve_type="instant">
+					<object folder="0" file="29" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="30" time="660" spin="0" curve_type="instant">
+					<object folder="0" file="30" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="31" time="682" spin="0" curve_type="instant">
+					<object folder="0" file="31" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="32" time="704" spin="0" curve_type="instant">
+					<object folder="0" file="32" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="33" time="726" spin="0" curve_type="instant">
+					<object folder="0" file="33" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="34" time="748" spin="0" curve_type="instant">
+					<object folder="0" file="34" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="35" time="770" spin="0" curve_type="instant">
+					<object folder="0" file="35" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="36" time="792" spin="0" curve_type="instant">
+					<object folder="0" file="36" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="37" time="814" spin="0" curve_type="instant">
+					<object folder="0" file="37" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="38" time="836" spin="0" curve_type="instant">
+					<object folder="0" file="38" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="39" time="858" spin="0" curve_type="instant">
+					<object folder="0" file="39" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="40" time="880" spin="0" curve_type="instant">
+					<object folder="0" file="40" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="41" time="902" spin="0" curve_type="instant">
+					<object folder="0" file="41" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="42" time="924" spin="0" curve_type="instant">
+					<object folder="0" file="42" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="43" time="946" spin="0" curve_type="instant">
+					<object folder="0" file="43" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="44" time="968" spin="0" curve_type="instant">
+					<object folder="0" file="44" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="45" time="990" spin="0" curve_type="instant">
+					<object folder="0" file="45" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="46" time="1012" spin="0" curve_type="instant">
+					<object folder="0" file="46" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="47" time="1034" spin="0" curve_type="instant">
+					<object folder="0" file="47" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="48" time="1056" spin="0" curve_type="instant">
+					<object folder="0" file="48" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="49" time="1078" spin="0" curve_type="instant">
+					<object folder="0" file="49" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+				<key id="50" time="1100" spin="0" curve_type="instant">
+					<object folder="0" file="50" x="0" y="50" scale_x="1" scale_y="1" angle="0" />
+				</key>
+			</timeline>
+		</animation>
+	</entity>
+</spriter_data>

@@ -1,0 +1,35 @@
+├── anim 动画包
+├── exported 动画工程文件
+├── fx 特效材质
+├── images 图片
+│   ├── inventoryimages 库存物品图片
+│   │   ├── prefab_id.tex
+│   │   └── prefab_id.xml
+├── DETAILS 详细(给你自己看的)
+├── LSP 为lls提供智能识别支持
+│   ├── api 预设api
+│   └── ...
+├── scripts 脚本
+│   ├── components 组件
+│   ├── core_%(modid)s
+│   │   ├── api 预设api
+│   │   │   └── ...
+│   │   ├── callers 调用器
+│   │   │   └── ...
+│   │   ├── data 数据库
+│   │   │   ├── ...
+│   │   │   └── tuning.lua MOD参数全局表
+│   │   ├── hooks 钩子
+│   │   ├── languages 本地化
+│   │   │   ├── cn.lua 中文
+│   │   │   └── en.lua 英文
+│   │   ├── ui
+│   │   ├── utils 堆放自己的一些工具库(有待添加)
+│   │   ├── widgets 构造UI的各种类
+│   ├── prefabs 预制物
+│   │   ├── %(modid)s_module_dishes.lua 料理预制物模块
+│   │   └── %(modid)s_module_particle.lua 粒子预制物模块
+├── sound 音效
+├── dst_mod-%(modid)s.code-workspace 工作区文件
+├── modmain.lua
+└── modinfo.lua mod介绍配置

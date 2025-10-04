@@ -1,0 +1,19 @@
+-- show
+-- 杂项
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+-- -- 添加一个slot 用于 `role_wilisha_addequiptag` 组件.
+-- EQUIPSLOTS.EXTRA_VOIDEQUIP = 'extra_voidequip'
+-- -- 禁止在特殊槽位装卸装备时播放动画
+-- local old_PushEvent = StateGraphInstance.PushEvent
+-- function StateGraphInstance:PushEvent(event,data,...)
+--     ---@cast data event_data_equip
+--     if event == 'equip' and data and data.eslot and data.eslot == EQUIPSLOTS.EXTRA_VOIDEQUIP then
+--         return
+--     ---@cast data event_data_unequip
+--     elseif event == 'unequip' and data and data.eslot and data.eslot == EQUIPSLOTS.EXTRA_VOIDEQUIP then
+--         return
+--     end
+--     return old_PushEvent ~= nil and old_PushEvent(self,event,data,...) or nil
+-- end

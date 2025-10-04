@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 4,
+		"workbench.editor.showTabs": "none",
+		"explorer.openEditors.sortOrder": "alphabetical",
+		"workbench.colorTheme": "Monokai",
+		"Lua.runtime.version": "Lua 5.1",
+		"Lua.diagnostics.disable": [
+			"redundant-parameter",
+			"cast-local-type",
+			"redundant-return-value"
+		],
+		"editor.emptySelectionClipboard": false,
+		"editor.formatOnPaste": true,
+		"commentTranslate.browse.mode": "inplace"
+	},
+	"mod_manager": {
+		"name": "role_wilisha",
+		"desc": ""
+	}
+}
