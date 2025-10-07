@@ -93,9 +93,6 @@ modimport('scripts/core_role_wilisha/managers/misc.lua') -- 杂项
 
 -- 注册客机组件
 
-
-modimport('scripts/core_role_wilisha/skins/pocketwatch_weapon.lua')
-
 -- 导入钩子 It's my勾
 ---@type string[]
 local files_hook = {
@@ -113,4 +110,3 @@ end
 
 -- 引入虚影植物生成器覆盖版本，让虚影优先选择被wilisha采集过的植物
 modimport('scripts/components/lunarthrall_plantspawner_override.lua')
-

@@ -12,6 +12,7 @@ local function AddMove(inst)
     inst:AddTag("deployedplant")
     inst:AddComponent("deployable")
     inst.components.deployable.ondeploy = OnDeploy
+    inst.components.deployable.restrictedtag = "lunarthrall_plant"
     inst.components.deployable:SetDeployMode(DEPLOYMODE.PLANT)
 	inst.components.deployable:SetDeploySpacing(DEPLOYSPACING.PLACER_DEFAULT)
 end

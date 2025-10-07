@@ -33,7 +33,7 @@ local function fn()
     inst.AnimState:PlayAnimation("float_top", true)
     
     -- 设置初始透明度为0（不可见）
-    inst.AnimState:SetMultColour(1, 1, 1, 0.4)
+    inst.AnimState:SetMultColour(1, 1, 1, 0.6)
     inst.AnimState:SetLightOverride(0.2)
     inst.AnimState:SetBloomEffectHandle("shaders/anim.ksh")
     

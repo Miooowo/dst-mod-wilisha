@@ -439,6 +439,9 @@ local master_postinit = function(inst)
 	inst.components.foodaffinity:AddPrefabAffinity("wormlight", TUNING.AFFINITY_15_CALORIES_MED) --最喜爱食物
 
     inst.IsValidVictim = IsValidVictim
+-- ----------------------------------- 生活 --------------------------------------
+    inst.components.builder.lunarforging_bonus = 2 --自带辉煌铁匠铺
+
 -- ----------------------------------- 战斗 --------------------------------------
 	inst.components.combat:SetDefaultDamage(5)
 

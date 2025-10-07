@@ -1,4 +1,5 @@
 ---@type data_recipe[]
+
 local data = {
 	-- {
 	-- 	recipe_name = 'choleknife_recipe_1', --配方ID
@@ -32,15 +33,47 @@ local data = {
 		isOriginalItem = true,
 		config = {
 			product = 'lunarplant_husk',
-			builder_tag="plantkin",
+			builder_tag = "lunarthrall_plant",
 			sg_state="form_husk", 
 			actionstr="GROW", 
 			allowautopick = true, 
-			no_deconstruction=true
+			no_deconstruction=true,
+			description = "livinglog"
 		},
 		filters = {'CHARACTER'},
 	},
+	{
+		recipe_name = 'wilisha_moonglass_charged',
+		ingredients = {
+			Ingredient('moonglass', 1),
+			Ingredient(CHARACTER_INGREDIENT.HEALTH, 10),
+		},
+		tech = TECH.NONE,
+		isOriginalItem = true,
+		config = {
+			product = 'moonglass_charged',
+			builder_tag = "lunarthrall_plant",
+			description = "wilisha_moonglass_charged",
+		},
+		filters = {'CHARACTER'},
+	},
+	{
+		recipe_name = 'wilisha_purebrilliance',
+		ingredients = {
+			Ingredient('moonglass_charged', 3),
+			Ingredient(CHARACTER_INGREDIENT.SANITY, 5),
+		},
+		tech = TECH.NONE,
+		isOriginalItem = true,
+		config = {
+			product = 'purebrilliance',
+			builder_tag = "lunarthrall_plant",
+			description = "transmute_purebrilliance",
+		},
+		filters = { 'CHARACTER' },
+	},
 }
+
 ---@type data_destruction_recipes[]
 local destruction_recipes = {
 }

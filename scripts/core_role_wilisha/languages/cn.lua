@@ -6,9 +6,7 @@ STRINGS.MOD_ROLE_WILISHA = {
     },
     SKIN_API = {
         SKINS = {
-            pocketwatch_weapon = {
-                triumphant = '凯旋',
-            },
+            
         },
         rare = {
             elegent = '祖传优雅',
@@ -22,3 +20,5 @@ STRINGS.MOD_ROLE_WILISHA = {
 
 STRINGS.NAMES.WILISHA_LUNARPLANTTENTACLE = "被感染的触手"
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.WILISHA_LUNARPLANTTENTACLE = "它有着带刺的外观。"
+
+STRINGS.RECIPE_DESC.WILISHA_MOONGLASS_CHARGED = "为碎片注入月能。"
