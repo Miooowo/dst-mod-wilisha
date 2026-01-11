@@ -47,7 +47,7 @@ local LANGS = {
 local cur = (locale == 'zh' or locale == 'zhr') and 'zh' or 'en'
 
 -- mod相关信息
-version = '0.0.2_beta'
+version = '0.0.3_beta'
 author = 'ClockCycas'
 forumthread = ''
 api_version = 10

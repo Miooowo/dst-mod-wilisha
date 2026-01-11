@@ -57,20 +57,29 @@ local data = {
 		},
 		filters = {'CHARACTER'},
 	},
+	-- {
+	-- 	recipe_name = 'wilisha_purebrilliance',
+	-- 	ingredients = {
+	-- 		Ingredient('moonglass_charged', 3),
+	-- 		Ingredient(CHARACTER_INGREDIENT.SANITY, 5),
+	-- 	},
+	-- 	tech = TECH.NONE,
+	-- 	isOriginalItem = true,
+	-- 	config = {
+	-- 		product = 'purebrilliance',
+	-- 		builder_tag = "lunarthrall_plant",
+	-- 		description = "transmute_purebrilliance",
+	-- 	},
+	-- 	filters = { 'CHARACTER' },
+	-- },
 	{
-		recipe_name = 'wilisha_purebrilliance',
+		recipe_name = 'lunarplant_seeds',
 		ingredients = {
-			Ingredient('moonglass_charged', 3),
-			Ingredient(CHARACTER_INGREDIENT.SANITY, 5),
+			Ingredient('lunarplant_husk', 2),
 		},
 		tech = TECH.NONE,
-		isOriginalItem = true,
-		config = {
-			product = 'purebrilliance',
-			builder_tag = "lunarthrall_plant",
-			description = "transmute_purebrilliance",
-		},
-		filters = { 'CHARACTER' },
+		isOriginalItem = false,
+		filters = {'CHARACTER'},
 	},
 }
 

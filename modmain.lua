@@ -19,8 +19,8 @@ PrefabFiles = {
 	-- 'role_wilisha_module_particle',
 	'wilisha_lunarplanttentacle',
 	'fx_wilisha_float_top',
-	'lunarplant_placer',
-
+	-- 'lunarplant_placer',
+	'lunarthrall_seeds',
 }
 
 -- 添加wilisha_harvest_tracker组件
@@ -102,7 +102,7 @@ local files_hook = {
 	'hook_cps_lunarplant_tentacle_weapon',
 	'hook_gestalt',
 	'hook_pocketwatch_weapon',
-	'hook_lunarplant_husk',
+	-- 'hook_lunarplant_husk',
 }
 for _,v in ipairs(files_hook) do
 	modimport('scripts/core_'..modid..'/hooks/'..v..'.lua')
