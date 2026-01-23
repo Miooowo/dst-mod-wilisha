@@ -3,7 +3,7 @@ require "prefabutil"
 
 local assets =
 {
-    Asset("ANIM", "anim/seeds.zip"),
+    Asset("ANIM", "anim/wilisha_lunarplant_seeds.zip"),
     Asset("ANIM", "anim/oceanfishing_lure_mis.zip"),
 
     Asset("ATLAS", "images/inventoryimages/lunarplant_seeds.xml"),
@@ -32,9 +32,9 @@ local function common(anim, cookable, oceanfishing_lure)
 
     MakeInventoryPhysics(inst)
 
-    inst.AnimState:SetBank("seeds")
-    inst.AnimState:SetBuild("seeds")
-    inst.AnimState:PlayAnimation(anim)
+    inst.AnimState:SetBank("wilisha_lunarplant_seeds")
+    inst.AnimState:SetBuild("wilisha_lunarplant_seeds")
+    inst.AnimState:PlayAnimation(anim, true)
     inst.AnimState:SetRayTestOnBB(true)
 
     inst.pickupsound = "vegetation_firm"

@@ -45,7 +45,7 @@ local data = {
 	{
 		recipe_name = 'wilisha_moonglass_charged',
 		ingredients = {
-			Ingredient('moonglass', 1),
+			Ingredient('moonglass', 2),
 			Ingredient(CHARACTER_INGREDIENT.HEALTH, 10),
 		},
 		tech = TECH.NONE,
@@ -79,6 +79,9 @@ local data = {
 		},
 		tech = TECH.NONE,
 		isOriginalItem = false,
+		config = {
+			builder_tag = "lunarthrall_plant",
+		},
 		filters = {'CHARACTER'},
 	},
 }

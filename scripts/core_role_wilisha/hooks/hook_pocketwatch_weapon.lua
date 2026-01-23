@@ -154,7 +154,7 @@ AddPrefabPostInit("pocketwatch_weapon", function(inst)
     --         local base_damage = weapon.base_damage or weapon.components.weapon.damage
     --         local final_damage = base_damage
             
-    --         -- -- 薇丽莎基础伤害加成
+    --         -- -- 薇莉莎基础伤害加成
     --         -- if inst.wilisha_damage_bonus then
     --         --     final_damage = final_damage * TUNING.WILISHA_SWORD_LUNARPLANT_DAMAGE_BONUS
     --         -- end

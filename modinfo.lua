@@ -4,8 +4,8 @@ local op={{'A',97},{'B',98},{'C',99},{'D',100},{'E',101},{'F',102},{'G',103},{'H
 local modid = 'role_wilisha'
 local LANGS = {
     ['zh'] = {
-        name = 'Wilisha(薇丽莎)',
-        description = '“我已经忘记了我的过去，当我醒来，我只记得我是薇丽莎。”',
+        name = 'Wilisha(薇莉莎)',
+        description = '“我已经忘记了我的过去，当我醒来，我只记得我是薇莉莎。”',
         config = {
             -- {'设置的id','设置的名称','聚焦时显示的提示',默认值,{
             --     {选项一,值},

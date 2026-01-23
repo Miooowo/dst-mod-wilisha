@@ -3,7 +3,7 @@ AddPrefabPostInit("sword_lunarplant", function(inst)
         return inst
     end
     -- 为亮茄剑添加连续攻击加伤效果 (仅限wilisha佩戴，需要头盔)
-    -- 薇丽莎持有时增加15%物理伤害
+    -- 薇莉莎持有时增加15%物理伤害
     
     -- 初始化连击相关变量
     inst.combo_stacks = 0
@@ -24,7 +24,7 @@ AddPrefabPostInit("sword_lunarplant", function(inst)
     local function apply_combo_bonus(inst, weapon, stacks)
         if weapon and weapon.components.weapon then
             
-            -- -- 薇丽莎基础伤害加成
+            -- -- 薇莉莎基础伤害加成
             -- if inst.wilisha_damage_bonus then
             --     final_damage = final_damage * TUNING.WILISHA_SWORD_LUNARPLANT_DAMAGE_BONUS
             -- end
@@ -125,7 +125,7 @@ AddPrefabPostInit("sword_lunarplant", function(inst)
     local function on_equip(inst, data)
         local owner = data and data.owner
         if owner and owner:HasTag("wilisha") then
-            -- 薇丽莎基础伤害加成始终生效
+            -- 薇莉莎基础伤害加成始终生效
             inst.wilisha_damage_bonus = true
             set_combo_weapon(inst, inst)
             inst:ListenForEvent("onattackother", on_attack_other, owner)

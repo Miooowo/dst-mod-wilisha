@@ -101,7 +101,8 @@ local files_hook = {
 	'hook_armor_lunarplant',
 	'hook_cps_lunarplant_tentacle_weapon',
 	'hook_gestalt',
-	'hook_pocketwatch_weapon',
+	-- 'hook_pocketwatch_weapon',
+	-- 'hook_lunarthrall_plant',
 	-- 'hook_lunarplant_husk',
 }
 for _,v in ipairs(files_hook) do

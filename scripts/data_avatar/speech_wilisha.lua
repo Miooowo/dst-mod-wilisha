@@ -14,66 +14,75 @@ return
 	{
 		GENERIC =
 		{
-			ITEMMIMIC = "好吧，这就不太方便了。",	--使用拟态蠕虫模仿的物品时显形脱手
+			ITEMMIMIC = "东西不对。",	--使用拟态蠕虫模仿的物品时显形脱手
 		},
 
 		ACTIVATE =	--激活
 		{
-			LOCKED_GATE = "大门锁上了。",		--大门锁住了（暴食）
-			HOSTBUSY = "他现在好像有点忙。",		--良羽鸦正在忙
-			CARNIVAL_HOST_HERE = "他就在附近。",		--良羽鸦已经在树旁
-			NOCARNIVAL = "鸟儿看起来都飞走了。",		--良羽鸦已离开
-			EMPTY_CATCOONDEN = "糟糕，我还以为里面肯定会有好东西呢！",		--浣猫窝里没东西
-			KITCOON_HIDEANDSEEK_NOT_ENOUGH_HIDERS = "应该不会这么容易，要是再多几个小家伙就好了……",		--小浣猫太少，无法捉迷藏
-			KITCOON_HIDEANDSEEK_NOT_ENOUGH_HIDING_SPOTS = "周围没有很多地方可供它们藏身。",		--可藏身物体太少，无法捉迷藏
-			KITCOON_HIDEANDSEEK_ONE_GAME_PER_DAY = "我想今天就到此为止吧。",	--每天只能玩一次捉迷藏
-			MANNEQUIN_EQUIPSWAPFAILED = "他应该穿不上。",	--与假人互换装备失败
-			PILLOWFIGHT_NO_HANDPILLOW = "我需要一个枕头来战斗！",	--没有枕头，无法进行枕头大战
-			NOTMYBERNIE = "我的毛绒玩具没这么吓人。",	--无法安抚别人的伯尼
-			NOTMERM = "只有鱼人才能叫得动鱼人。",	--非鱼人不能用食堂海带盘召集鱼人
-			NOKELP = "only_used_by_wurt",	--食堂海带盘无海带，不能召集鱼人（沃特专用）
-			HASMERMLEADER = "only_used_by_wurt",	--已经有其他玩家用这个海带盘集鱼人了（沃特专用）
+			LOCKED_GATE = "锁着。进不去。",					--大门锁住了（暴食）
+			HOSTBUSY = "它现在没空。",						--良羽鸦正在忙
+			CARNIVAL_HOST_HERE = "就在附近。",					--良羽鸦已经在树旁
+			NOCARNIVAL = "鸟已经离开了。",						--良羽鸦已离开
+			EMPTY_CATCOONDEN = "空的。",				--浣猫窝里没东西
+			KITCOON_HIDEANDSEEK_NOT_ENOUGH_HIDERS = "数量不够。",	--小浣猫太少
+			KITCOON_HIDEANDSEEK_NOT_ENOUGH_HIDING_SPOTS = "这里不适合躲藏。",		--可藏身物体太少
+			KITCOON_HIDEANDSEEK_ONE_GAME_PER_DAY = "今天到此为止。",				--每天只能玩一次
+			MANNEQUIN_EQUIPSWAPFAILED = "不对。",			--与假人互换装备失败
+			PILLOWFIGHT_NO_HANDPILLOW = "没有武器。无法开始。",	--没有枕头
+			NOTMYBERNIE = "那不是我的。",						--无法安抚别人的伯尼
+			NOTMERM = "它们不听我的。",						--非鱼人不能召集鱼人
+			NOKELP = "only_used_by_wurt",						--沃特专用
+			HASMERMLEADER = "only_used_by_wurt",				--沃特专用
 		},
+
 		APPLYMODULE =	--插电路（机器人专用）
 		{
-			COOLDOWN = "only_used_by_wx78",		--插拔电路冷却时间未到
-			NOTENOUGHSLOTS = "only_used_by_wx78",	--剩下的插槽不够
+			COOLDOWN = "only_used_by_wx78",		--冷却中
+			NOTENOUGHSLOTS = "only_used_by_wx78",	--插槽不足
 		},
-		APPRAISE =	--评鉴皮弗娄牛玩偶（牛年活动）
+
+		APPRAISE =	--评鉴皮弗娄牛玩偶
 		{
-			NOTNOW = "人家忙着呢。",		--评委忙碌中
+			NOTNOW = "它现在没时间。",			--评委忙碌中
 		},
+
 		ATTUNE =
 		{
-			NOHEALTH = "我感觉不够好。",		--制造肉雕像血量不足
+			NOHEALTH = "感觉不好。",				--血量不足
 		},
+
 		BATHBOMB =		--投入浴盐球
 		{
-			GLASSED = "不行，表面都变玻璃了。",		--温泉已凝结为玻璃
-			ALREADY_BOMBED = "别浪费沐浴球。",		--温泉已投入浴盐球
+			GLASSED = "表面已经硬化。",			--温泉玻璃化
+			ALREADY_BOMBED = "不需要重复。",		--已投入
 		},
+
 		BEDAZZLE =		--装饰蜘蛛巢（韦伯专用）
 		{
-			BURNING = "only_used_by_webber",		--暂无注释
-			BURNT = "only_used_by_webber",		--暂无注释
-			FROZEN = "only_used_by_webber",		--暂无注释
-			ALREADY_BEDAZZLED = "only_used_by_webber",		--暂无注释
+			BURNING = "only_used_by_webber",
+			BURNT = "only_used_by_webber",
+			FROZEN = "only_used_by_webber",
+			ALREADY_BEDAZZLED = "only_used_by_webber",
 		},
+
 		BEGIN_QUEST =	--找玩具任务（温蒂专用）
 		{
-			ONEGHOST = "only_used_by_wendy",		--暂无注释
+			ONEGHOST = "only_used_by_wendy",
 		},
+
 		BUILD =
 		{
-			MOUNTED = "放不下。",		--骑乘状态下无法建造
-			HASPET = "我已经有一只宠物了。",		--建造失败，已经有一个宠物了
-			TICOON = "我对自己的大虎专一投入，眼里根本没别人。",	--建造失败，已经有一只大虎了
-			BUSY_STATION = "我得再等等。",	--锯马工作中需要等待
+			MOUNTED = "现在不行。",				--骑乘状态
+			HASPET = "我已经有一个了。",			--已有宠物
+			TICOON = "目标已确定。",				--已有大虎
+			BUSY_STATION = "需要等待。",			--工作中
 		},
-		CARNIVALGAME_FEED =		--鸟鸟吃虫虫游戏，喂鸟
+
+		CARNIVALGAME_FEED =		--喂鸟
 		{
-			TOO_LATE = "我得快一点！",		--鸟的持续时间过了，缩回去了
+			TOO_LATE = "慢了。",					--时间过了
 		},
+
 		CAST_POCKETWATCH = 		--使用怀表（旺达专用）
 		{
 			GENERIC = "only_used_by_wanda",		--暂无注释
@@ -101,11 +110,11 @@ return
 		},
 		CHANGEIN =
 		{
-			GENERIC = "我现在不想换。",		--换装失败 
-			BURNING = "现在太危险了！",		--换装失败，衣柜着火了
-			INUSE = "它一次只能进行一种风格转变。",		--衣橱有人占用
-			NOTENOUGHHAIR = "皮毛不够用来装扮。",		--皮弗娄牛美妆台上的牛被剃毛了
-			NOOCCUPANT = "得在上面栓点东西。",		--皮弗娄牛美妆台上没有牛
+			GENERIC = "时尚欲望不强。",		--换装失败 
+			BURNING = "火焰会烧伤我。",		--换装失败，衣柜着火了
+			INUSE = "有人在用。",		--衣橱有人占用
+			NOTENOUGHHAIR = "缺少毛发。",		--皮弗娄牛美妆台上的牛被剃毛了
+			NOOCCUPANT = "可能需要只牛。",		--皮弗娄牛美妆台上没有牛
 		},
 		CHARGE_FROM =	--摸避雷针和发电机充电（机器人专用）
 		{
@@ -114,28 +123,28 @@ return
 		},
 		COMPARE_WEIGHABLE =		--称重
 		{
-			FISH_TOO_SMALL = "这家伙太小了。",		--鱼太小了
-			OVERSIZEDVEGGIES_TOO_SMALL = "还不够沉。",		--巨大作物太小了
+			FISH_TOO_SMALL = "鱼太小。",		--鱼太小了
+			OVERSIZEDVEGGIES_TOO_SMALL = "不能放上去。",		--巨大作物太小了
 		},
 		CONSTRUCT =		--建造计划
 		{
-			INUSE = "有人抢先了。",		--建筑正在使用
-			NOTALLOWED = "不匹配。",		--材料不对
-			EMPTY = "我需要一些建造材料。",		--材料栏无材料
-			MISMATCH = "哎呀，计划错误。",		--建造成果错误（未应用）
-			NOTREADY = "情况稳定下来之后它可能会出现。",	--当前状态无法建造
+			INUSE = "有人在用。",		--建筑正在使用
+			NOTALLOWED = "材料不对。",		--材料不对
+			EMPTY = "需要材料。",		--材料栏无材料
+			MISMATCH = "意料之外。",		--建造成果错误（未应用）
+			NOTREADY = "也许需要稳定。",	--当前状态无法建造
 		},
 		COOK =
 		{
-			GENERIC = "我现在做不了饭。",		--做饭失败
-			INUSE = "好像我们有一样的想法。",		--做饭失败，别人在用锅
-			TOOFAR = "太远了！",		--做饭失败，距离太远
+			GENERIC = "做饭的时机不对。",		--做饭失败
+			INUSE = "别人更急。",		--做饭失败，别人在用锅
+			TOOFAR = "遥远。",		--做饭失败，距离太远
 		},
 		DISMANTLE =	--收起便携厨具
 		{
-			COOKING = "煮着东西呢，不能这样。",		--烹饪中
-			INUSE = "科学告诉我，我该等轮到我。",		--无法收起，别人在用
-			NOTEMPTY = "我得先把里面的东西弄走。",		--厨具里有东西
+			COOKING = "正在煮。",		--烹饪中
+			INUSE = "得等。",		--无法收起，别人在用
+			NOTEMPTY = "里头有东西。",		--厨具里有东西
 		},
 		DISMANTLE_POCKETWATCH =		--拆解怀表（旺达专用）
 		{
@@ -766,9 +775,12 @@ return
 
 	ANNOUNCE_ROYALTY =
 	{
-		"陛下。",		--向带着蜂王帽的队友鞠躬
-		"殿下。",		--向带着蜂王帽的队友鞠躬
-		"我的君主！",		--向带着蜂王帽的队友鞠躬
+		"虚王。",		--向带着蜂王帽的队友鞠躬
+		"非王。",		--向带着蜂王帽的队友鞠躬
+		"“陛下”",		--向带着蜂王帽的队友鞠躬
+		"“殿下”",		--向带着蜂王帽的队友鞠躬
+		"“君主”",		--向带着蜂王帽的队友鞠躬
+		"你就是“皇室”？",		--向带着蜂王帽的队友鞠躬
 	},
 
 	ANNOUNCE_ATTACH_BUFF_ELECTRICATTACK	= "我带的是正电！",		--获得料理buff：带电攻击

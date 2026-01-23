@@ -214,6 +214,44 @@ local function OnHarvestPlant(inst, data)
         end
     end
 end
+
+-- 当wilisha攻击时，给目标添加character标签（排除拳击袋和特定标签）
+local function OnAttackOther(inst, data)
+    if data and data.target and data.target:IsValid() then
+        local target = data.target
+        -- 排除拳击袋
+        local target_prefab = target.prefab
+        if target_prefab == "punchingbag" or target_prefab == "punchingbag_lunar" or target_prefab == "punchingbag_shadow" then
+            return
+        end
+        
+        -- 判断是否为PVP模式
+        -- local is_pvp = TheNet:GetPVPEnabled()
+        
+        -- 构建排除标签列表
+        local exclude_tags = { "INLIMBO", "notarget", "wall", "companion", "follower" }
+        -- 如果不是PVP模式，则也排除player标签
+        -- if not is_pvp then
+        --     table.insert(exclude_tags, "player")
+        -- end
+        
+        -- 检查目标是否具有排除标签
+        local should_exclude = false
+        for _, tag in ipairs(exclude_tags) do
+            if target:HasTag(tag) then
+                should_exclude = true
+                break
+            end
+        end
+        
+        -- 如果不在排除列表中，则添加character标签
+        if not should_exclude then
+            if not target:HasTag("character") then
+                target:AddTag("character")
+            end
+        end
+    end
+end
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 local function OnIsFullmoon(inst, isfullmoon)
@@ -414,6 +452,7 @@ local common_postinit = function(inst)
 end
 -- 主机
 local master_postinit = function(inst)	
+    inst.refusestobowtoroyalty = true --拒绝向蜂王帽鞠躬
 	inst.starting_inventory = start_inv[TheNet:GetServerGameMode()] or start_inv.default
 	inst.soundsname = 'wormwood'
 	inst.endtalksound = "dontstarve/characters/wormwood/end"
@@ -490,6 +529,7 @@ local master_postinit = function(inst)
     inst:ListenForEvent("equip", OnEquip)
     inst:ListenForEvent("unequip", OnUnequip)
     inst:ListenForEvent("harvest", OnHarvestPlant)
+    inst:ListenForEvent("onattackother", OnAttackOther)
 
     inst:AddComponent("damagereflect") --伤害反射
     inst.components.damagereflect:SetReflectDamageFn(ReflectDamageFn)
@@ -551,7 +591,7 @@ MakeWILISHAFreeSkin(avatar_name..'_none', {
 	-- skins = { normal_skin = "esctemplate", ghost_skin = 'ghost_'..avatar_name..'_build' },
 	-- build_name_override = avatar_name,
 	-- share_bigportrait_name = avatar_name..'_none',
-	name = '薇丽莎', -- 皮肤的名称
+	name = '薇莉莎', -- 皮肤的名称
 	des = '苏醒之后，她只记得她叫这个名字。', -- 皮肤界面的描述
 	quotes = '\'我？还是我们……\'', -- 选人界面的描述
 	rarity = 'Character', -- 珍惜度 官方不存在的珍惜度则直接覆盖字符串

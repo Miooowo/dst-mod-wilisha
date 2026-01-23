@@ -84,7 +84,7 @@ local avatar_info = {
 	['cn'] = {
 		-- 选人界面的描述
 		titles = "亮茄之子",
-		names = "薇丽莎",
+		names = "薇莉莎",
 		descriptions = [[
 *与植物息息相关
 *同伴被杀死时会难过
@@ -94,10 +94,10 @@ local avatar_info = {
 		quotes = "\'我？还是我们……\'",
 		survivability = "严峻",
 		-- 描述
-		myname = '薇丽莎', -- 角色名
+		myname = '薇莉莎', -- 角色名
 		others_desc_me = '%s，我好像在哪见过你。', -- 其他人描述我
 		me_desc_another_me = '%s，你和我……很像。', -- 自己描述自己
-		--speech = require "speech_wathgrithr",--require "data_avatar/speech_wilisha",
+		speech = require "data_avatar/speech_wilisha",
 	},
 	['en'] = {
 		-- select screen desc
@@ -116,7 +116,7 @@ local avatar_info = {
 		myname = 'Wilisha', -- avatar name
 		others_desc_me = '%s, I think I have seen you before.', -- other people describe me
 		me_desc_another_me = '%s, you and I... are very similar.', -- describe another me
-		--speech = require"data_avatar/speech_wilisha_en",
+		speech = require"data_avatar/speech_wilisha_en",
 	},
 }
 
@@ -138,7 +138,7 @@ STRINGS.NAMES.WILISHA = avatar_info[TUNING[string.upper('CONFIG_'..modid..'_LANG
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.WILISHA = avatar_info[TUNING[string.upper('CONFIG_'..modid..'_LANG')]].others_desc_me
 STRINGS.CHARACTERS.WILISHA.DESCRIBE.WILISHA = avatar_info[TUNING[string.upper('CONFIG_'..modid..'_LANG')]].me_desc_another_me
 
--- STRINGS.CHARACTERS.WILISHA = avatar_info[TUNING[string.upper('CONFIG_'..modid..'_LANG')]].speech
+STRINGS.CHARACTERS.WILISHA = avatar_info[TUNING[string.upper('CONFIG_'..modid..'_LANG')]].speech
 -- 亮茄触手
 STRINGS.CHARACTERS.WILISHA.DESCRIBE.WILISHA_LUNARPLANTTENTACLE = "我想我们惹祸了……"
 STRINGS.CHARACTERS.WILISHA.ANNOUNCE_EATFAVORITEFOOD =
